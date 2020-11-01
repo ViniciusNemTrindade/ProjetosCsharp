@@ -82,7 +82,7 @@
             this.btnSaque.Size = new System.Drawing.Size(101, 77);
             this.btnSaque.TabIndex = 11;
             this.btnSaque.UseVisualStyleBackColor = true;
-            this.btnSaque.Click += new System.EventHandler(this.button1_Click);
+            this.btnSaque.Click += new System.EventHandler(this.btnSaque_Click);
             // 
             // btnSaldo
             // 
@@ -92,7 +92,7 @@
             this.btnSaldo.Size = new System.Drawing.Size(101, 77);
             this.btnSaldo.TabIndex = 10;
             this.btnSaldo.UseVisualStyleBackColor = true;
-            this.btnSaldo.Click += new System.EventHandler(this.button2_Click);
+            this.btnSaldo.Click += new System.EventHandler(this.btnSaldo_Click);
             // 
             // groupBox2
             // 
@@ -107,6 +107,7 @@
             this.groupBox2.Size = new System.Drawing.Size(210, 154);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
+            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
             // groupBox3
             // 
@@ -126,6 +127,7 @@
             this.btnDeposito.Size = new System.Drawing.Size(101, 77);
             this.btnDeposito.TabIndex = 9;
             this.btnDeposito.UseVisualStyleBackColor = true;
+            this.btnDeposito.Click += new System.EventHandler(this.btnDeposito_Click);
             // 
             // btnEmprestimo
             // 
@@ -135,7 +137,7 @@
             this.btnEmprestimo.Size = new System.Drawing.Size(101, 77);
             this.btnEmprestimo.TabIndex = 8;
             this.btnEmprestimo.UseVisualStyleBackColor = true;
-            this.btnEmprestimo.Click += new System.EventHandler(this.button24_Click);
+            this.btnEmprestimo.Click += new System.EventHandler(this.btnEmprestimo_Click);
             // 
             // groupBox4
             // 
@@ -169,7 +171,7 @@
             this.btnMais.Size = new System.Drawing.Size(117, 73);
             this.btnMais.TabIndex = 20;
             this.btnMais.UseVisualStyleBackColor = true;
-            this.btnMais.Click += new System.EventHandler(this.button17_Click);
+            this.btnMais.Click += new System.EventHandler(this.btnMais_Click);
             // 
             // btnBranco
             // 
@@ -179,6 +181,7 @@
             this.btnBranco.Size = new System.Drawing.Size(91, 73);
             this.btnBranco.TabIndex = 19;
             this.btnBranco.UseVisualStyleBackColor = true;
+            this.btnBranco.Click += new System.EventHandler(this.btnBranco_Click);
             // 
             // btn00
             // 
@@ -188,7 +191,7 @@
             this.btn00.Size = new System.Drawing.Size(92, 73);
             this.btn00.TabIndex = 18;
             this.btn00.UseVisualStyleBackColor = true;
-            this.btn00.Click += new System.EventHandler(this.button19_Click);
+            this.btn00.Click += new System.EventHandler(this.btn00_Click);
             // 
             // btnMenos
             // 
@@ -198,6 +201,7 @@
             this.btnMenos.Size = new System.Drawing.Size(95, 73);
             this.btnMenos.TabIndex = 17;
             this.btnMenos.UseVisualStyleBackColor = true;
+            this.btnMenos.Click += new System.EventHandler(this.btnMenos_Click);
             // 
             // btnEntrar
             // 
@@ -207,6 +211,7 @@
             this.btnEntrar.Size = new System.Drawing.Size(117, 73);
             this.btnEntrar.TabIndex = 16;
             this.btnEntrar.UseVisualStyleBackColor = true;
+            this.btnEntrar.Click += new System.EventHandler(this.btnEntrar_Click);
             // 
             // btn09
             // 
@@ -216,7 +221,7 @@
             this.btn09.Size = new System.Drawing.Size(91, 73);
             this.btn09.TabIndex = 15;
             this.btn09.UseVisualStyleBackColor = true;
-            this.btn09.Click += new System.EventHandler(this.button14_Click);
+            this.btn09.Click += new System.EventHandler(this.btn09_Click);
             // 
             // btn08
             // 
@@ -226,6 +231,7 @@
             this.btn08.Size = new System.Drawing.Size(92, 73);
             this.btn08.TabIndex = 14;
             this.btn08.UseVisualStyleBackColor = true;
+            this.btn08.Click += new System.EventHandler(this.btn08_Click);
             // 
             // btn07
             // 
@@ -235,7 +241,7 @@
             this.btn07.Size = new System.Drawing.Size(95, 73);
             this.btn07.TabIndex = 13;
             this.btn07.UseVisualStyleBackColor = true;
-            this.btn07.Click += new System.EventHandler(this.button16_Click);
+            this.btn07.Click += new System.EventHandler(this.btn07_Click);
             // 
             // btnLimpar
             // 
@@ -245,7 +251,7 @@
             this.btnLimpar.Size = new System.Drawing.Size(117, 73);
             this.btnLimpar.TabIndex = 12;
             this.btnLimpar.UseVisualStyleBackColor = true;
-            this.btnLimpar.Click += new System.EventHandler(this.button9_Click);
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // btn06
             // 
@@ -255,6 +261,7 @@
             this.btn06.Size = new System.Drawing.Size(91, 73);
             this.btn06.TabIndex = 11;
             this.btn06.UseVisualStyleBackColor = true;
+            this.btn06.Click += new System.EventHandler(this.btn06_Click);
             // 
             // btn05
             // 
@@ -264,6 +271,7 @@
             this.btn05.Size = new System.Drawing.Size(92, 73);
             this.btn05.TabIndex = 10;
             this.btn05.UseVisualStyleBackColor = true;
+            this.btn05.Click += new System.EventHandler(this.btn05_Click);
             // 
             // btn04
             // 
@@ -273,6 +281,7 @@
             this.btn04.Size = new System.Drawing.Size(95, 73);
             this.btn04.TabIndex = 9;
             this.btn04.UseVisualStyleBackColor = true;
+            this.btn04.Click += new System.EventHandler(this.btn04_Click);
             // 
             // btnCancelar
             // 
@@ -282,7 +291,7 @@
             this.btnCancelar.Size = new System.Drawing.Size(117, 73);
             this.btnCancelar.TabIndex = 8;
             this.btnCancelar.UseVisualStyleBackColor = true;
-            this.btnCancelar.Click += new System.EventHandler(this.button8_Click);
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // btn03
             // 
@@ -292,7 +301,7 @@
             this.btn03.Size = new System.Drawing.Size(91, 73);
             this.btn03.TabIndex = 7;
             this.btn03.UseVisualStyleBackColor = true;
-            this.btn03.Click += new System.EventHandler(this.button7_Click);
+            this.btn03.Click += new System.EventHandler(this.btn03_Click);
             // 
             // btn02
             // 
@@ -302,7 +311,7 @@
             this.btn02.Size = new System.Drawing.Size(92, 73);
             this.btn02.TabIndex = 6;
             this.btn02.UseVisualStyleBackColor = true;
-            this.btn02.Click += new System.EventHandler(this.button6_Click);
+            this.btn02.Click += new System.EventHandler(this.btn02_Click);
             // 
             // btn01
             // 
@@ -312,6 +321,7 @@
             this.btn01.Size = new System.Drawing.Size(95, 73);
             this.btn01.TabIndex = 5;
             this.btn01.UseVisualStyleBackColor = true;
+            this.btn01.Click += new System.EventHandler(this.btn01_Click);
             // 
             // lblEmprestimo
             // 
@@ -322,7 +332,7 @@
             this.lblEmprestimo.Size = new System.Drawing.Size(104, 20);
             this.lblEmprestimo.TabIndex = 0;
             this.lblEmprestimo.Text = "Empréstimo";
-            this.lblEmprestimo.Click += new System.EventHandler(this.label1_Click);
+            this.lblEmprestimo.Click += new System.EventHandler(this.lblEmprestimo_Click);
             // 
             // lblSaldo
             // 
@@ -333,6 +343,7 @@
             this.lblSaldo.Size = new System.Drawing.Size(55, 20);
             this.lblSaldo.TabIndex = 21;
             this.lblSaldo.Text = "Saldo";
+            this.lblSaldo.Click += new System.EventHandler(this.lblSaldo_Click);
             // 
             // lblDisplay
             // 
@@ -344,7 +355,7 @@
             this.lblDisplay.Size = new System.Drawing.Size(188, 50);
             this.lblDisplay.TabIndex = 22;
             this.lblDisplay.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lblDisplay.Click += new System.EventHandler(this.label3_Click);
+            this.lblDisplay.Click += new System.EventHandler(this.lblDisplay_Click);
             // 
             // lblDeposito
             // 
@@ -355,6 +366,7 @@
             this.lblDeposito.Size = new System.Drawing.Size(81, 20);
             this.lblDeposito.TabIndex = 23;
             this.lblDeposito.Text = "Depósito";
+            this.lblDeposito.Click += new System.EventHandler(this.lblDeposito_Click);
             // 
             // lblSaque
             // 
@@ -365,6 +377,7 @@
             this.lblSaque.Size = new System.Drawing.Size(61, 20);
             this.lblSaque.TabIndex = 24;
             this.lblSaque.Text = "Saque";
+            this.lblSaque.Click += new System.EventHandler(this.lblSaque_Click);
             // 
             // Form1
             // 

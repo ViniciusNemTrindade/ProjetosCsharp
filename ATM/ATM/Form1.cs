@@ -22,74 +22,135 @@ namespace ATM
 
         }
 
-        private void button9_Click(object sender, EventArgs e)
+        private void groupBox2_Enter(object sender, EventArgs e)
         {
 
         }
 
-        private void button7_Click(object sender, EventArgs e)
+        private void btnDeposito_Click(object sender, EventArgs e)
+        {
+
+        } 
+       
+        private void btnSaque_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void btnSaldo_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void btnEmprestimo_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void lblSaldo_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void lblEmprestimo_Click(object sender, EventArgs e)
+        {
+
+        }  
+        private void lblDisplay_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button24_Click(object sender, EventArgs e)
+        private void lblSaque_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button6_Click(object sender, EventArgs e)
+        private void lblDeposito_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button17_Click(object sender, EventArgs e)
+        private void btn00_Click(object sender, EventArgs e)
+        {
+            lblDisplay.Text = lblDisplay.Text + "0";
+        }
+
+        private void btn01_Click(object sender, EventArgs e)
+        {
+            lblDisplay.Text = lblDisplay.Text + "1";
+        }
+
+        private void btn02_Click(object sender, EventArgs e)
+        {
+            lblDisplay.Text = lblDisplay.Text + "2";
+        }
+        private void btn03_Click(object sender, EventArgs e)
+        {
+            lblDisplay.Text = lblDisplay.Text + "3";
+        }
+
+        private void btn04_Click(object sender, EventArgs e)
+        {
+            lblDisplay.Text = lblDisplay.Text + "4";
+        }
+
+        private void btn05_Click(object sender, EventArgs e)
+        {
+            lblDisplay.Text = lblDisplay.Text + "5";
+        }
+
+        private void btn06_Click(object sender, EventArgs e)
+        {
+            lblDisplay.Text = lblDisplay.Text + "6";
+        }
+         private void btn07_Click(object sender, EventArgs e)
+        {
+            lblDisplay.Text = lblDisplay.Text + "7";
+        }
+        private void btn08_Click(object sender, EventArgs e)
+        {
+            lblDisplay.Text = lblDisplay.Text + "8";
+        }
+        private void btn09_Click(object sender, EventArgs e)
+        {
+            lblDisplay.Text = lblDisplay.Text + "9";
+        }
+
+        private void btnEntrar_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button19_Click(object sender, EventArgs e)
+        private void btnBranco_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button16_Click(object sender, EventArgs e)
+        private void btnMais_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button14_Click(object sender, EventArgs e)
+        private void btnMenos_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button8_Click(object sender, EventArgs e)
+        private void btnCancelar_Click(object sender, EventArgs e)
         {
+            DialogResult aSair;
+
+            aSair = MessageBox.Show("Cofirme para sair", "Sistema ATM", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (aSair == DialogResult.Yes) 
+            {
+                Application.Exit();    
+            }
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btnLimpar_Click(object sender, EventArgs e)
         {
 
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
+            lblDisplay.Text = "";
         }
     }
 }
